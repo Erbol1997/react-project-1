@@ -1,0 +1,55 @@
+.defaultBtnStyle {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 1000px;
+  padding: 20px 90px;
+  transition: all 0.3s ease-in-out;
+}
+
+.defaultBtnStyle:hover {
+  background: #000000;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.cartBtn {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 1000px;
+  color: #000000;
+  padding: 15px 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cartBtn:hover {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.authBtn {
+  cursor: pointer;
+  background: #000000;
+  border-radius: 1000px;
+  border: 1px solid #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 10px 60px;
+  transition: all 0.3s ease-in-out;
+}
+
+.authBtn:hover {
+  color: #000000;
+  background: #ffffff;
+}

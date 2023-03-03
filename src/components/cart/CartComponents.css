@@ -1,0 +1,46 @@
+.cart-inner {
+  margin-top: 142px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cart {
+  background-color: #000;
+  padding: 75px 32px 48px 32px;
+  border-radius: 32px;
+  max-width: 231px;
+  width: 100%;
+}
+
+.cart-row {
+  text-align: center;
+}
+
+.cart-title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.cart-subtitle {
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 80px;
+}
+
+/* mobile version */
+
+@media (max-width: 767px) {
+  .cart-inner {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 518px) {
+  .cart {
+    max-width: 100%;
+  }
+}

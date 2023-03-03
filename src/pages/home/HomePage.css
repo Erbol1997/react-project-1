@@ -1,0 +1,16 @@
+.page {
+  background-color: #fff;
+}
+
+.home-page__content {
+  text-align: center;
+  padding: 94px 10px 177px 10px;
+}
+
+.home-page__title {
+  margin-bottom: 53px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}

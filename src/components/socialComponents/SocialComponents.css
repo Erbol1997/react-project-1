@@ -1,0 +1,77 @@
+.contacts-page__social__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contacts-page__social__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  max-width: 181px;
+  width: 100%;
+  padding: 20px 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+.contacts-page__social__item > img {
+  width: 50px;
+}
+
+.contacts-page__social__item > h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.contacts-page__social__item > p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/* SignUpSocial */
+
+.signUpContent {
+  margin-top: 36px;
+}
+
+.sign-up__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.sign-up__icons {
+  display: flex;
+  column-gap: 15px;
+}
+
+.sign-up__icon {
+  background: #000000;
+  border-radius: 1000px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* mobile version */
+
+@media (max-width: 767px) {
+  .contacts-page__social__items {
+    row-gap: 20px;
+    justify-content: center;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 418px) {
+  .contacts-page__social__item {
+    max-width: 100%;
+  }
+}
